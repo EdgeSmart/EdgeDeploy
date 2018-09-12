@@ -9,6 +9,7 @@ type Request struct {
 	http.Request
 }
 
+// Post request
 func Post(url string, data interface{}) *Request {
 	return &Request{}
 }
