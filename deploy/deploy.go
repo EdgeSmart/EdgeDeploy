@@ -5,6 +5,7 @@ import (
 	"github.com/EdgeSmart/EdgeFairy/user"
 )
 
+// Run execute daemon
 func Run() error {
 	err := check.Run()
 	if err != nil {
