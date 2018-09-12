@@ -4,6 +4,7 @@ import (
 	"net/http"
 )
 
+// Request struct of req
 type Request struct {
 	http.Request
 }
